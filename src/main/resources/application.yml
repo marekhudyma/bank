@@ -1,0 +1,26 @@
+micronaut:
+  application:
+    name: complete
+
+application:
+  balance: 100.00
+
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5433/bank?stringtype=unspecified
+    username: bankuser
+    password: bankpassword
+    driverClassName: org.postgresql.Driver
+
+jpa:
+  default:
+    packages-to-scan:
+      - 'com.marekhudyma.bank'
+    properties:
+      hibernate:
+        show_sql: true
+
+flyway:
+  datasources:
+    default:
+      locations: classpath:databasemigrations
