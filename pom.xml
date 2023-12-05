@@ -16,7 +16,7 @@
         <exec.mainClass>com.marekhudyma.bank.Application</exec.mainClass>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
         <maven-failsafe-plugin.version>2.22.2</maven-failsafe-plugin.version>
-        <logback-classic.version>1.2.3</logback-classic.version>
+        <logback-classic.version>1.2.13</logback-classic.version>
         <maven-shade-plugin.version>3.2.1</maven-shade-plugin.version>
         <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
